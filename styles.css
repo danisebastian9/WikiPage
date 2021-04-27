@@ -1,0 +1,47 @@
+body {
+    background: #eee;
+}
+
+#navbar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#navbar a {
+    padding: 12px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+#navbar header {
+    padding: 12px 8px 8px 16px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f1f1f1;
+    display: block;
+}
+
+#navbar a:hover {
+    color: #f1f1f1;
+}
+
+#main-doc {
+    margin-left: 200px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    #navbar {padding-top: 15px;}
+    #navbar a {font-size: 18px;}
+}
