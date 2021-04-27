@@ -47,3 +47,20 @@ body {
     #navbar {padding-top: 15px;}
     #navbar a {font-size: 18px;}
 }
+
+.main-section header {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4vw;
+}
+
+.main-section {
+    text-align: justify;
+    font-size: 3vmin;
+    margin-bottom: 40px;
+}
+
+.main-section img {
+    width: 100%;
+    border-radius: 5px;
+}
