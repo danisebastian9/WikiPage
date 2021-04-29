@@ -43,6 +43,12 @@ body {
     padding: 0px 10px;
 }
 
+@media screen and (max-width: 550px) {
+    #navbar {
+        
+    }
+}
+
 @media screen and (max-height: 450px) {
     #navbar {padding-top: 15px;}
     #navbar a {font-size: 18px;}
