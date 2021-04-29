@@ -43,21 +43,6 @@ body {
     padding: 0px 10px;
 }
 
-@media screen and (max-width: 550px) {
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    #navbar {
-        position: unset;
-    }
-}
-
-@media screen and (max-height: 450px) {
-    #navbar {padding-top: 15px;}
-    #navbar a {font-size: 18px;}
-}
-
 .main-section header {
     font-weight: bold;
     font-style: italic;
@@ -74,3 +59,71 @@ body {
     max-width: 100%;
     border-radius: 5px;
 }
+
+@media screen and (max-height: 450px) {
+    #navbar {padding-top: 15px;}
+    #navbar a {font-size: 18px;}
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #navbar header {
+        margin-bottom: 0;
+    }
+
+    #navbar ul {
+        height: 275px;
+    }
+    #navbar a {
+        font-size: 4vw;
+    }
+
+    #navbar a:hover {
+        cursor: pointer;
+    }
+    
+    #navbar {
+        position: absolute;
+        top: 0;
+        padding: 0;
+        max-width: 100%;
+        width: 100%;
+        max-height: 200px;
+        z-index: 1;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #main-doc {
+        position: relative;
+        margin-left: 0;
+        margin-top: 230px;
+    }
+
+    .main-section header {
+        font-size: 5vw;
+    }
+
+    .main-section {
+        font-size: 4vmin;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #navbar a {
+        font-size: 5vw;
+    }
+
+    .main-section header {
+        font-size: 7vw;
+    }
+
+    .main-section {
+        font-size: 6vmin;
+    }
+}
+  
